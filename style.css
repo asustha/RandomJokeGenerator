@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Showcard Gothic', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(135deg, #a8c0ff, #3f2b96);
+    color: white;
+    font-size: 16px;
+}
+
+.app-container {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #c277f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.app-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #480083;
+}
+
+.joke-btn {
+    padding: 15px 30px;
+    background-color: #2e7a85;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.joke-btn:hover {
+    background-color: #7b0b9a;
+    transform: scale(1.05);
+}
+
+.joke-text {
+    font-size: 1.2rem;
+    color: #b0f208;
+    transition: all 0.3s ease;
+}
+
+.joke-text {
+    font-size: 1.2rem;
+    color: #000404;
+}
+
+@media (max-width: 600px) {
+    .app-container {
+        padding: 15px;
+    }
+
+    .joke-btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .joke-text {
+        font-size: 1rem;
+    }
+}
